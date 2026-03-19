@@ -43,7 +43,7 @@ jobs:
       - name: Create ZIP
         run: |
           mkdir build
-          zip -r build/UfLogger.zip \
+          zip -r build/UFLogger.zip \
             src/ examples/ library.properties README.md LICENSE
 
       # 7.
