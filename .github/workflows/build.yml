@@ -34,7 +34,10 @@ jobs:
       # 5.
       - name: Compile examples
         run: |
-          arduino-cli compile --fqbn arduino:avr:uno examples/Basic
+          arduino-cli compile \
+            --fqbn arduino:avr:uno \
+            --library . \
+            examples/Basic
 
       # 6.
       - name: Create ZIP
