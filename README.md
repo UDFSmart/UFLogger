@@ -25,7 +25,7 @@ Logging levels:
 Usage example:
 
 ```cpp
-#include <UfLogger.h>
+#include <UFLogger.h>
 
 void setup() {
   Serial.begin(115200);
